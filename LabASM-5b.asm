@@ -71,4 +71,4 @@ delay50ms:
 		brne delay50_loop
 	ret
 
-msg: .db "Hello, World!", '\n' , 0, 0
+msg: .db "Hello, World!", '\n' , '\r', 0
