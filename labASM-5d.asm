@@ -117,4 +117,4 @@ salute:
 	rcall led_out
 	ret
 
-msg: .db "Hello, World!", '\n' , '\r', 0
+msg: .db "LabASM-5d", '\n', '\r', 0
